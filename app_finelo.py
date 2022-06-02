@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 
-st.set_page_config(page_title="Finnish elo",page_icon=":soccer:") #, layout="wide") #page_icon=":bar_chart:"
+st.set_page_config(page_title="Finnish elo",page_icon=":soccer:") 
 
 @st.cache
 def get_data():
