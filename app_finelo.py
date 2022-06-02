@@ -32,5 +32,5 @@ with table:
 
     
     st.table(ranking.style.format("{:7.0f}"))
-    st.text('Last update: 28/05/2022')
+    st.text('Last update: 02/06/2022')
     st.text('Data from sportscore api')
